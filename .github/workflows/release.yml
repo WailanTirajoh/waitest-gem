@@ -28,6 +28,8 @@ jobs:
           yarn add standard-version
           yarn run standard-version
           git push --follow-tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push to rubygems.org
         run: |
           bundle exec gem release
