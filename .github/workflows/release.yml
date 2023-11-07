@@ -23,6 +23,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+      - name: Debug Info
+        run: |
+          git remote -v
+          git status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Bump and Commit
         run: |
           yarn add standard-version
