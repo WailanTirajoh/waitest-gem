@@ -11,9 +11,11 @@ Check gem-push.yml
 ## Installing
 ### Github Registry
 - Setup PAT at https://github.com/settings/tokens
-- Choose token classic and make sure tick the "read registry"
-- Save
-- bundle config https://rubygems.pkg.github.com/WailanTirajoh WailanTirajoh:REPLACE_THIS_WITH_YOUR_PAT_CLASSIC_TOKEN
+- Choose token classic, tick the "read registry", save
+- Copy the PAT token and run this command inside your terminal
+```
+bundle config https://rubygems.pkg.github.com/WailanTirajoh WailanTirajoh:YOUR_PAT_TOKEN
+```
 
 - Add to Gemfile
 ```
