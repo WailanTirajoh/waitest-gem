@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.2.0](https://github.com/WailanTirajoh/waitest-gem/compare/v0.1.14...v0.2.0) (2023-11-08)
+
+
+### Features
+
+* **waitest:** only testing changelog with feat ([6de20cb](https://github.com/WailanTirajoh/waitest-gem/commit/6de20cb46d46e57cd6cccfca08a884d91c33d8f9))
+
+
+
 ## [0.1.14](https://github.com/WailanTirajoh/waitest-gem/compare/v0.1.13...v0.1.14) (2023-11-07)
 
 
