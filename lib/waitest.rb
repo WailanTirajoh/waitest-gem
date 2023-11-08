@@ -8,7 +8,7 @@ module Waitest
 
   class Testing
     def self.hello_world
-      'hello world test'
+      'hello world'
     end
   end
 end
