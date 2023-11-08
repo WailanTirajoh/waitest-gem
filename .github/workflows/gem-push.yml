@@ -1,10 +1,10 @@
-name: Ruby Gem
+name: Github Registry Release
 
 on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+  workflow_run:
+    workflows: ["Rubygem Release"]
+    types:
+      - completed
 
 jobs:
   build:
