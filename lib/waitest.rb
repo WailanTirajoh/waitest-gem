@@ -7,8 +7,10 @@ module Waitest
   # Your code goes here...
 
   class Testing
-    def self.hello_world
-      'hello world'
+    class << self
+      def hello_world
+        'hello world'
+      end
     end
   end
 end
